@@ -1,9 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>내 사이트</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Blog — AI, Money & Life</title>
+<meta name="description" content="Notes on AI, personal finance, and everyday life — written in plain English, one idea at a time.">
+<link rel="canonical" href="https://leeduri.github.io/aifinote/">
+
+<!-- Open Graph / social preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your Blog — AI, Money & Life">
+<meta property="og:description" content="Notes on AI, personal finance, and everyday life.">
+<meta property="og:image" content="https://leeduri.github.io/aifinote/assets/og-cover.png">
+<meta property="og:url" content="https://leeduri.github.io/aifinote/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <h1>안녕하세요! 제 깃허브 사이트에 오신 것을 환영합니다.</h1>
+
+<header class="site-header">
+  <div class="wrap-wide bar">
+    <a class="brand" href="index.html">Your Blog</a>
+    <nav class="nav">
+      <a href="#" class="active">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="wrap-wide hero">
+    <h1>AI, Money &amp; Life</h1>
+    <p>Notes on artificial intelligence, personal finance, and everyday living — written one clear idea at a time.</p>
+  </section>
+
+  <!-- Category filter. Buttons match the data-cat on each card. -->
+  <div class="wrap-wide">
+    <div class="filters">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="ai">AI</button>
+      <button class="chip" data-filter="finance">Finance</button>
+      <button class="chip" data-filter="life">Life</button>
+    </div>
+  </div>
+
+  <!-- POST LIST.
+       To add a post: copy one <a class="card"> block, point href to your new
+       posts/xxx.html file, set data-cat to ai | finance | life, and fill in
+       the thumbnail, tag, title, excerpt, and date. Newest first. -->
+  <section class="wrap-wide">
+    <div class="grid" id="grid">
+
+      <a class="card" href="posts/example-post.html" data-cat="ai">
+        <img class="thumb" src="assets/placeholder.png" alt="Cover image" loading="lazy">
+        <div class="body">
+          <span class="tag" data-cat="ai">AI</span>
+          <h3>How I Actually Use AI Tools Every Day</h3>
+          <p>A no-hype look at the handful of AI tools that survived past week one, and what they replaced.</p>
+          <span class="meta">Jul 19, 2026 · 6 min read</span>
+        </div>
+      </a>
+
+      <a class="card" href="#" data-cat="finance">
+        <img class="thumb" src="assets/placeholder.png" alt="Cover image" loading="lazy">
+        <div class="body">
+          <span class="tag" data-cat="finance">Finance</span>
+          <h3>The Boring Budget That Finally Stuck</h3>
+          <p>Three envelopes, one rule, zero spreadsheets. Why the simplest system beat every app I tried.</p>
+          <span class="meta">Jul 12, 2026 · 5 min read</span>
+        </div>
+      </a>
+
+      <a class="card" href="#" data-cat="life">
+        <img class="thumb" src="assets/placeholder.png" alt="Cover image" loading="lazy">
+        <div class="body">
+          <span class="tag" data-cat="life">Life</span>
+          <h3>A Slow Morning Routine Worth Keeping</h3>
+          <p>What changed when I stopped reaching for my phone in the first thirty minutes of the day.</p>
+          <span class="meta">Jul 5, 2026 · 4 min read</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide bar">
+    <span>© 2026 Your Blog</span>
+    <span><a href="about.html">About</a> · <a href="#">RSS</a> · <a href="https://github.com/leeduri">GitHub</a></span>
+  </div>
+</footer>
+
+<script>
+  // Lightweight category filter — shows/hides cards already in the HTML,
+  // so the links stay crawlable for search engines.
+  const chips = document.querySelectorAll('.chip');
+  const cards = document.querySelectorAll('#grid .card');
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    chips.forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    const f = chip.dataset.filter;
+    cards.forEach(card => {
+      card.style.display = (f === 'all' || card.dataset.cat === f) ? '' : 'none';
+    });
+  }));
+</script>
 </body>
 </html>
