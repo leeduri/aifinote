@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Your Blog</title>
+<meta name="description" content="Who writes this blog and why — notes on AI, personal finance, and everyday life.">
+<link rel="canonical" href="https://leeduri.github.io/aifinote/about.html">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap-wide bar">
+    <a class="brand" href="index.html">Your Blog</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <article>
+    <h1>About</h1>
+    <p>Hi — I'm <strong>Your Name</strong>. I write about three things I think
+    about constantly: <strong>AI</strong>, <strong>money</strong>, and the small
+    mechanics of <strong>everyday life</strong>.</p>
+
+    <p>Everything here is first-hand: tools I've actually used, budgets I've
+    actually run, routines I've actually tested. No rewritten press releases, no
+    hype for the sake of clicks.</p>
+
+    <h2>Why these three topics?</h2>
+    <p>They overlap more than they look. The way you use AI changes how you work,
+    which changes your money, which changes your day. This blog is where I keep
+    notes on all of it.</p>
+
+    <h2>Get in touch</h2>
+    <p>Find me on <a href="https://github.com/leeduri">GitHub</a> or email me at
+    <a href="mailto:you@example.com">you@example.com</a>.</p>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide bar">
+    <span>© 2026 Your Blog</span>
+    <span><a href="about.html">About</a> · <a href="https://github.com/leeduri">GitHub</a></span>
+  </div>
+</footer>
+</body>
+</html>
