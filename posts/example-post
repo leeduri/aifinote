@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How I Actually Use AI Tools Every Day — Your Blog</title>
+<meta name="description" content="A no-hype look at the handful of AI tools that survived past week one of daily use, and what each one replaced.">
+<link rel="canonical" href="https://leeduri.github.io/aifinote/posts/example-post.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="How I Actually Use AI Tools Every Day">
+<meta property="og:description" content="The handful of AI tools that survived past week one, and what they replaced.">
+<meta property="og:image" content="https://leeduri.github.io/aifinote/posts/images/example-cover.png">
+<meta property="og:url" content="https://leeduri.github.io/aifinote/posts/example-post.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "How I Actually Use AI Tools Every Day",
+      "description": "The handful of AI tools that survived past week one, and what they replaced.",
+      "image": "https://leeduri.github.io/aifinote/posts/images/example-cover.png",
+      "datePublished": "2026-07-19",
+      "dateModified": "2026-07-19",
+      "author": { "@type": "Person", "name": "Your Name" },
+      "publisher": { "@type": "Organization", "name": "Your Blog" },
+      "mainEntityOfPage": "https://leeduri.github.io/aifinote/posts/example-post.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://leeduri.github.io/aifinote/" },
+        { "@type": "ListItem", "position": 2, "name": "AI", "item": "https://leeduri.github.io/aifinote/?cat=ai" },
+        { "@type": "ListItem", "position": 3, "name": "How I Actually Use AI Tools Every Day" }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap-wide bar">
+    <a class="brand" href="../index.html">Your Blog</a>
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <a href="../index.html?cat=ai">AI</a> ›
+    <span>How I Actually Use AI Tools Every Day</span>
+  </nav>
+
+  <article>
+    <span class="tag" data-cat="ai">AI</span>
+    <h1>How I Actually Use AI Tools Every Day</h1>
+
+    <div class="post-meta">
+      <span>By <strong>Your Name</strong></span>
+      <span>Jul 19, 2026</span>
+      <span>6 min read</span>
+    </div>
+
+    <figure>
+      <img class="cover" src="images/example-cover.png" alt="A desk with a laptop showing an AI chat assistant open">
+      <figcaption>My real setup — nothing fancy.</figcaption>
+    </figure>
+
+    <p>After a year of trying almost every AI tool that trended, only four made
+    it into my daily routine. The rest were fun for a week and then forgotten.
+    Here's what stuck, and — more usefully — what each one actually replaced.</p>
+
+    <h2>The test: does it save real time?</h2>
+    <p>My rule is simple. A tool earns a spot only if, after two weeks, skipping
+    it feels slower. Novelty doesn't count. Saved minutes do.</p>
+
+    <h3>What survived, and what it replaced</h3>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Tool type</th><th>Replaced</th><th>Time saved / week</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Writing assistant</td><td>Blank-page procrastination</td><td>~2 hrs</td></tr>
+          <tr><td>Code helper</td><td>Stack Overflow tab-hopping</td><td>~3 hrs</td></tr>
+          <tr><td>Summarizer</td><td>Reading full reports</td><td>~1 hr</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Where AI still gets in the way</h2>
+    <p>It's not all upside. For anything requiring judgment or a real point of
+    view, AI gives me a fast draft that's confidently mediocre. The editing back
+    to something honest often costs more than writing it myself would have.</p>
+
+    <blockquote>
+      <p>The tools that lasted all share one trait: they remove a chore, not the
+      thinking.</p>
+    </blockquote>
+
+    <h2>Wrapping up</h2>
+    <p>If you're drowning in AI recommendations, ignore the hype cycle and run
+    the two-week test yourself. Most tools won't pass — and that's the point.</p>
+
+    <div class="author-box">
+      <div class="avatar"></div>
+      <div>
+        <p class="name">Your Name</p>
+        <p class="desc">I write about AI, money, and everyday life — plainly, and
+        from actually trying the thing.</p>
+      </div>
+    </div>
+
+    <nav class="related">
+      <h2>Related posts</h2>
+      <ul>
+        <li><a href="#">The Boring Budget That Finally Stuck →</a></li>
+        <li><a href="#">A Slow Morning Routine Worth Keeping →</a></li>
+      </ul>
+    </nav>
+
+    <div class="ad-slot">
+      <!-- Paste guides/adsense-snippet.html here -->
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide bar">
+    <span>© 2026 Your Blog</span>
+    <span><a href="../about.html">About</a> · <a href="https://github.com/leeduri">GitHub</a></span>
+  </div>
+</footer>
+</body>
+</html>
