@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===== EDIT PER POST: title / description / url / image / dates ===== -->
+<title>POST TITLE — Your Blog</title>
+<meta name="description" content="One-sentence summary of the post, 120–155 characters, with the main keyword near the front.">
+<link rel="canonical" href="https://leeduri.github.io/aifinote/posts/POST-SLUG.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="POST TITLE">
+<meta property="og:description" content="One-sentence summary of the post.">
+<meta property="og:image" content="https://leeduri.github.io/aifinote/posts/images/POST-SLUG-cover.png">
+<meta property="og:url" content="https://leeduri.github.io/aifinote/posts/POST-SLUG.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Structured data: Article + Breadcrumb (the combo SEO/AEO actually rewards in 2026) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "POST TITLE",
+      "description": "One-sentence summary of the post.",
+      "image": "https://leeduri.github.io/aifinote/posts/images/POST-SLUG-cover.png",
+      "datePublished": "2026-07-19",
+      "dateModified": "2026-07-19",
+      "author": { "@type": "Person", "name": "Your Name" },
+      "publisher": { "@type": "Organization", "name": "Your Blog" },
+      "mainEntityOfPage": "https://leeduri.github.io/aifinote/posts/POST-SLUG.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://leeduri.github.io/aifinote/" },
+        { "@type": "ListItem", "position": 2, "name": "AI", "item": "https://leeduri.github.io/aifinote/?cat=ai" },
+        { "@type": "ListItem", "position": 3, "name": "POST TITLE" }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap-wide bar">
+    <a class="brand" href="../index.html">Your Blog</a>
+    <nav class="nav">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="breadcrumb">
+    <a href="../index.html">Home</a> ›
+    <a href="../index.html?cat=ai">AI</a> ›
+    <span>Post title</span>
+  </nav>
+
+  <article>
+    <span class="tag" data-cat="ai">AI</span>
+    <!-- H1 = the post title. Put the main keyword near the front. -->
+    <h1>Your Post Title Goes Here</h1>
+
+    <div class="post-meta">
+      <span>By <strong>Your Name</strong></span>
+      <span>Jul 19, 2026</span>
+      <span>6 min read</span>
+    </div>
+
+    <!-- Cover / representative image. 1200×630 recommended for social + Discover. -->
+    <figure>
+      <img class="cover" src="images/POST-SLUG-cover.png" alt="Descriptive alt text about what the cover shows">
+      <figcaption>A short caption for the cover image.</figcaption>
+    </figure>
+
+    <!-- Lead: state the conclusion / main idea in the first 2–3 sentences.
+         No "In this post we will..." throat-clearing. -->
+    <p>Open with the payoff. Tell the reader in the first two or three sentences
+    exactly what they'll get and what you concluded — search engines and AI
+    overviews read the intro to decide what this page is about.</p>
+
+    <h2>First section heading</h2>
+    <p>Keep paragraphs to 2–4 sentences. Break ideas up so the page scans well
+    on a phone.</p>
+
+    <p>Use <strong>bold</strong> for the key phrase in a paragraph, and link to a
+    <a href="#">related post</a> when it helps the reader go deeper.</p>
+
+    <h3>A question readers actually ask?</h3>
+    <p>Answer it in one or two sentences right under the heading. This
+    question-then-answer shape is what gets pulled into AI answers and featured
+    snippets.</p>
+
+    <!-- In-body image example -->
+    <figure>
+      <img src="images/POST-SLUG-1.png" alt="Describe the second image here">
+      <figcaption>Optional caption.</figcaption>
+    </figure>
+
+    <h2>A section with a list</h2>
+    <ul>
+      <li><strong>Point one</strong> — a short explanation.</li>
+      <li><strong>Point two</strong> — a short explanation.</li>
+      <li><strong>Point three</strong> — a short explanation.</li>
+    </ul>
+
+    <h2>A section with a table</h2>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Option</th><th>Best for</th><th>Cost</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Option A</td><td>Beginners</td><td>Free</td></tr>
+          <tr><td>Option B</td><td>Power users</td><td>$$</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <blockquote>
+      <p>Use a blockquote to highlight a key takeaway or a quote.</p>
+    </blockquote>
+
+    <h2>Wrapping up</h2>
+    <p>Close with a short summary and a next step — a link to a related post
+    keeps readers on the site and helps SEO.</p>
+
+    <!-- Author box -->
+    <div class="author-box">
+      <div class="avatar"></div>
+      <div>
+        <p class="name">Your Name</p>
+        <p class="desc">One or two lines about who you are and why you write about
+        AI, money, and everyday life.</p>
+      </div>
+    </div>
+
+    <!-- Related posts (internal links = better SEO + longer sessions) -->
+    <nav class="related">
+      <h2>Related posts</h2>
+      <ul>
+        <li><a href="#">Another post title →</a></li>
+        <li><a href="#">And one more →</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== AD SLOT: paste guides/adsense-snippet.html contents here ===== -->
+    <div class="ad-slot">
+      <!-- Google AdSense code goes here, at the very end of the article body -->
+    </div>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide bar">
+    <span>© 2026 Your Blog</span>
+    <span><a href="../about.html">About</a> · <a href="https://github.com/leeduri">GitHub</a></span>
+  </div>
+</footer>
+</body>
+</html>
